@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ETECH | PODS</title>
+     <link rel="icon" href="title-image.jpeg" type="image/x-icon">
+</head>
+<body>
+    <div class="preloader">
+        <div class="spinner"></div>
+      </div>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>ETECH</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <button class="buy-button">Buy Now</button>
+        <div class="menu-button">&#9776;</div>
+    </nav>
+    <canvas id="canvas3d"></canvas>
+
+    <script src="script.js"></script>
+    <script type="module">
+      import { Application } from './runtime.js';
+      const canvas = document.getElementById('canvas3d');
+      const app = new Application(canvas);
+      app.load('./scene.splinecode');
+    </script>
+</body>
+</html>

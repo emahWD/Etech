@@ -108,7 +108,8 @@ ul {
 .nav-links a {
   text-decoration: none;
   color: #333;
-  font-weight: bold;
+  font-weight: 511;
+  font-size: 14px;
   position: relative;
   transition: color 0.3s; /* Add transition for hover effect */
 }

@@ -2,7 +2,7 @@
 
 Welcome to the etech Pods 3D website repository!
 
-![etech Pods 3D](url-to-your-image.jpg)
+![etech Pods 3D](https://Etech-pods.vercel.app/)
 
 ## Project Description
 
@@ -17,8 +17,4 @@ etech Pods 3D is a dynamic website showcasing a collection of innovative tech pr
 - **Color-Changing**: Pods change colors dynamically, offering a visually engaging experience.
 
 - **Responsive Design**: The website is responsive, ensuring a seamless experience on various devices.
-
-## Demo
-
-For a live demo, please visit [etech Pods 3D Website](insert-link-here).
 

@@ -14,6 +14,6 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
       const preloader = document.querySelector(".preloader");
       preloader.style.display = "none";
-    }, 3000); // Hide the preloader after 3 seconds
+    }, 5000); // Hide the preloader after 3 seconds
   });
   
